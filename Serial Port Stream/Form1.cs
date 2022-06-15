@@ -84,6 +84,7 @@ namespace Serial_Port_Stream
             else
             {
                 Debug.WriteLine("Serial port is already connected");
+                System.Media.SystemSounds.Asterisk.Play();
             }
         }
 
@@ -105,6 +106,7 @@ namespace Serial_Port_Stream
             else
             {
                 Debug.WriteLine("Serial port is already disconnected");
+                System.Media.SystemSounds.Asterisk.Play();
             }
         }
 
